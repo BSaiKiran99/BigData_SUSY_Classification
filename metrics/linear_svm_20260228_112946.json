@@ -1,0 +1,30 @@
+{
+  "run_id": "20260228_112946",
+  "model": "linear_svm",
+  "sample_fraction": 0.3,
+  "auc_roc": 0.8408794429982356,
+  "auc_pr": 0.8360591301530437,
+  "f1": 0.7555486778549014,
+  "confusion_matrix_counts": [
+    {
+      "y": 1,
+      "yhat": 1,
+      "count": 79773
+    },
+    {
+      "y": 0,
+      "yhat": 0,
+      "count": 149615
+    },
+    {
+      "y": 1,
+      "yhat": 0,
+      "count": 57475
+    },
+    {
+      "y": 0,
+      "yhat": 1,
+      "count": 13353
+    }
+  ]
+}
